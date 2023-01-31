@@ -1,6 +1,6 @@
 {
   "name": "@saber/eslint-config",
-  "version": "0.34.0",
+  "version": "0.1.0",
   "description": "Saber's ESLint config, base on Anthony's ESLint config",
   "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/saber/)",
   "license": "MIT",
