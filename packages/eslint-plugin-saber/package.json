@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-saber",
-  "version": "0.1.1-beta.0",
+  "version": "0.1.1-beta.1",
   "license": "MIT",
   "homepage": "https://github.com/saberwang8023/eslint-config",
   "main": "./dist/index.cjs",
