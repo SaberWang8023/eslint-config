@@ -15,7 +15,7 @@
     "@saberwong/eslint-config": "*",
     "bumpp": "^8.2.1",
     "eslint": "^8.29.0",
-    "eslint-plugin-saber": "workspace:*",
+    "eslint-plugin-saberwong": "workspace:*",
     "rimraf": "^3.0.2",
     "typescript": "^4.9.5"
   }

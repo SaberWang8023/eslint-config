@@ -7,14 +7,14 @@ importers:
       '@saberwong/eslint-config': '*'
       bumpp: ^8.2.1
       eslint: ^8.29.0
-      eslint-plugin-saber: workspace:*
+      eslint-plugin-saberwong: workspace:*
       rimraf: ^3.0.2
       typescript: ^4.9.5
     devDependencies:
       '@saberwong/eslint-config': link:packages/all
       bumpp: 8.2.1
       eslint: 8.33.0
-      eslint-plugin-saber: link:packages/eslint-plugin-saber
+      eslint-plugin-saberwong: link:packages/eslint-plugin-saberwong
       rimraf: 3.0.2
       typescript: 4.9.5
 
@@ -64,7 +64,7 @@ importers:
       eslint-plugin-n: ^15.6.1
       eslint-plugin-no-only-tests: ^3.1.0
       eslint-plugin-promise: ^6.1.1
-      eslint-plugin-saber: workspace:*
+      eslint-plugin-saberwong: workspace:*
       eslint-plugin-unicorn: ^45.0.2
       eslint-plugin-unused-imports: ^2.0.0
       eslint-plugin-yml: ^1.4.0
@@ -79,7 +79,7 @@ importers:
       eslint-plugin-n: 15.6.1_eslint@8.33.0
       eslint-plugin-no-only-tests: 3.1.0
       eslint-plugin-promise: 6.1.1_eslint@8.33.0
-      eslint-plugin-saber: link:../eslint-plugin-saber
+      eslint-plugin-saberwong: link:../eslint-plugin-saberwong
       eslint-plugin-unicorn: 45.0.2_eslint@8.33.0
       eslint-plugin-unused-imports: 2.0.0_eslint@8.33.0
       eslint-plugin-yml: 1.4.0_eslint@8.33.0
@@ -88,7 +88,7 @@ importers:
     devDependencies:
       eslint: 8.33.0
 
-  packages/eslint-plugin-saber:
+  packages/eslint-plugin-saberwong:
     specifiers:
       '@types/node': ^18.11.13
       '@typescript-eslint/utils': ^5.46.0
