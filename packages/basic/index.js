@@ -35,7 +35,6 @@ module.exports = {
   plugins: [
     'html',
     'unicorn',
-    'antfu',
     'no-only-tests',
     'unused-imports',
   ],
@@ -349,9 +348,9 @@ module.exports = {
     'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
     'yml/no-empty-document': 'off',
 
-    // antfu
-    'antfu/if-newline': 'error',
-    'antfu/import-dedupe': 'error',
-    // 'antfu/prefer-inline-type-import': 'error',
+    // saber
+    'saber/if-newline': 'error',
+    'saber/import-dedupe': 'error',
+    // 'saber/prefer-inline-type-import': 'error',
   },
 }

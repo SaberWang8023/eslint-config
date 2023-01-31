@@ -1,0 +1,6 @@
+{
+  "extends": "@saber",
+  "plugins": [
+    "saber"
+  ]
+}
