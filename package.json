@@ -1,5 +1,5 @@
 {
-  "name": "@saber/eslint-config-monorepo",
+  "name": "@saberwong/eslint-config-monorepo",
   "version": "0.1.1-beta.1",
   "private": true,
   "packageManager": "pnpm@7.1.0",
@@ -12,7 +12,7 @@
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
-    "@saber/eslint-config": "*",
+    "@saberwong/eslint-config": "*",
     "bumpp": "^8.2.1",
     "eslint": "^8.29.0",
     "eslint-plugin-saber": "workspace:*",

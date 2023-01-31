@@ -1,5 +1,5 @@
 {
-  "name": "@saber/eslint-config-vue",
+  "name": "@saberwong/eslint-config-vue",
   "version": "0.1.1-beta.1",
   "description": "",
   "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/saber/)",
@@ -15,8 +15,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@saber/eslint-config-basic": "workspace:*",
-    "@saber/eslint-config-ts": "workspace:*",
+    "@saberwong/eslint-config-basic": "workspace:*",
+    "@saberwong/eslint-config-ts": "workspace:*",
     "eslint-plugin-vue": "^9.9.0",
     "local-pkg": "^0.4.3"
   },

@@ -1,6 +1,6 @@
-# @saber/eslint-config
+# @saberwong/eslint-config
 
-[![npm](https://img.shields.io/npm/v/@saber/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@saber/eslint-config)
+[![npm](https://img.shields.io/npm/v/@saberwong/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@saberwong/eslint-config)
 
 - Single quotes, no semi
 - Auto fix for formatting (aimed to be used standalone without Prettier)
@@ -15,14 +15,14 @@
 ### Install
 
 ```bash
-pnpm add -D eslint @saber/eslint-config
+pnpm add -D eslint @saberwong/eslint-config
 ```
 
 ### Config `.eslintrc`
 
 ```json
 {
-  "extends": "@saber"
+  "extends": "@saberwong"
 }
 ```
 
@@ -64,7 +64,7 @@ Type aware rules are enabled when a `tsconfig.eslint.json` is found in the proje
 process.env.ESLINT_TSCONFIG = 'tsconfig.json'
 
 module.exports = {
-  extends: '@saber'
+  extends: '@saberwong'
 }
 ```
 

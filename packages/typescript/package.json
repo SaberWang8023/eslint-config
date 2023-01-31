@@ -1,5 +1,5 @@
 {
-  "name": "@saber/eslint-config-ts",
+  "name": "@saberwong/eslint-config-ts",
   "version": "0.1.1-beta.1",
   "description": "",
   "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/saber/)",
@@ -17,7 +17,7 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@saber/eslint-config-basic": "workspace:*",
+    "@saberwong/eslint-config-basic": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.46.0",
     "@typescript-eslint/parser": "^5.46.0",
     "eslint-plugin-jest": "^27.1.6"

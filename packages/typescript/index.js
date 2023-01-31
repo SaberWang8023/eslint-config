@@ -1,12 +1,12 @@
 const fs = require('fs')
 const { join } = require('path')
-const basic = require('@saber/eslint-config-basic')
+const basic = require('@saberwong/eslint-config-basic')
 
 const tsconfig = process.env.ESLINT_TSCONFIG || 'tsconfig.eslint.json'
 
 module.exports = {
   extends: [
-    '@saber/eslint-config-basic',
+    '@saberwong/eslint-config-basic',
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
   ],

@@ -1,5 +1,5 @@
 {
-  "extends": "@saber",
+  "extends": "@saberwong",
   "plugins": [
     "saber"
   ]
